@@ -99,3 +99,6 @@ body{
 	display:inline-block;
 	font-size: 17px;
 }
+.flex{
+	display: flex;
+}
