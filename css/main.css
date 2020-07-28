@@ -86,7 +86,12 @@ body{
 	width: 200px;
 }
 .clear{
-	clear:left;
+	clear:both;
+}
+.clearfix:after{
+	content: "";
+	clear: both;
+	display: block;
 }
 .float{
 	float:left;
